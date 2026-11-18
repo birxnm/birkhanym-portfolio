@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1c1a1a;
+  --color-pink: #d94096;
+  --color-mist: #edf2ed;
+  --color-grey: #404040;
+  --color-slot: #dcdee3;
+  --font-sans: "Poppins", system-ui, sans-serif;
+  --font-script: "Caveat", cursive;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: #fff;
+  overflow-x: hidden;
+}
+
+.swirl {
+  position: absolute;
+  border-radius: 9999px;
+  border: 10px solid #f0f0f2;
+  pointer-events: none;
+}
+
+.headline {
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 0.92;
+  text-transform: uppercase;
+}
+
+.script {
+  font-family: var(--font-script);
+  color: var(--color-pink);
+  line-height: 1;
+}
+
+.eyebrow {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-pink);
+}
