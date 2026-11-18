@@ -11,6 +11,14 @@ export const profile = {
     { label: 'Telegram', handle: '@birxnm', href: 'https://t.me/birxnm' },
     { label: 'GitHub', handle: 'github.com/birxnm', href: 'https://github.com/birxnm' },
   ],
+  email: 'k.birkhanym@gmail.com',
+}
+
+export const nextEvent = {
+  script: 'See you at',
+  head: 'Soul Camp',
+  meta: 'Almaty · November 21–22 · Tech track',
+  line: "Let's build something beautiful together.",
 }
 
 // Projects that get a folder on the "Projects I build" screen, in order.
@@ -38,8 +46,8 @@ export const projects = {
     ],
     pics: [
       { file: 'fablab.jpg', label: 'FabLab', ratio: 4 / 3, rot: 3 },
-      { file: 'back2roots-app.png', label: 'Back2Roots app', ratio: 1.8, rot: -3 },
-      { file: 'llama-certificate.png', label: 'Meta Llama certificate', ratio: 1.4, rot: 2 },
+      { file: 'back2roots-app.jpg', label: 'Back2Roots app', ratio: 1.8, rot: -3 },
+      { file: 'llama-certificate.jpg', label: 'Meta Llama certificate', ratio: 1.4, rot: 2 },
     ],
   },
   cortexai: {
@@ -55,9 +63,9 @@ export const projects = {
     body: 'CortexAI is a decision-support system for transplant doctors. I built the ML platform that predicts rejection from genetic profiling and clinical biomarkers, and added RAG pipelines that cut clinical decision time from 12 hours to 10 seconds.',
     links: [{ label: 'cortex-os.org', href: 'https://cortex-os.org/' }],
     pics: [
-      { file: 'cortexos-site.png', label: 'CortexOS site', ratio: 1.85, rot: 3 },
+      { file: 'cortexos-site.jpg', label: 'CortexOS site', ratio: 1.85, rot: 3 },
       { file: 'enactus-bangkok.jpg', label: 'Enactus World Cup 2025', ratio: 1.58, rot: -3 },
-      { file: 'cortex-instagram.png', label: 'Instagram', ratio: 0.46, rot: -4 },
+      { file: 'cortex-instagram.jpg', label: 'Instagram', ratio: 0.46, rot: -4 },
     ],
   },
   qazaqart: {
@@ -76,9 +84,9 @@ export const projects = {
       { label: 'Instagram', href: 'https://www.instagram.com/qazaqart.kz' },
     ],
     pics: [
-      { file: 'qazaqart-mockup.png', label: 'QazaqArt app', ratio: 1.64, rot: 3 },
-      { file: 'qazaqart-instagram.png', label: 'Instagram', ratio: 0.46, rot: -4 },
-      { file: 'it-queen-certificate.jpg', label: 'IT Queen certificate', ratio: 0.75, rot: -3 },
+      { file: 'qazaqart-mockup.jpg', label: 'QazaqArt app', ratio: 1.64, rot: 3 },
+      { file: 'qazaqart-instagram.jpg', label: 'Instagram', ratio: 0.46, rot: -4 },
+      { file: 'it-queen.jpg', label: 'IT Queen KZ final', ratio: 4 / 3, rot: -3 },
     ],
   },
   shainote: {
@@ -100,8 +108,8 @@ export const projects = {
       },
     ],
     pics: [
-      { file: 'shainote-desktop.png', label: 'Desktop app', ratio: 1.61, rot: 3 },
-      { file: 'shainote-mobile.png', label: 'Mobile app', ratio: 2.04, rot: -3 },
+      { file: 'shainote-desktop.jpg', label: 'Desktop app', ratio: 1.61, rot: 3 },
+      { file: 'shainote-mobile.jpg', label: 'Mobile app', ratio: 2.04, rot: -3 },
     ],
   },
   enactus: {
@@ -132,9 +140,9 @@ export const projects = {
     body: 'Pick three interests at Hard, Medium and Easy, follow a roadmap of levels, earn coins with photo reports and find people with the same interests on a map. Finished quests earn bronze, silver and gold ninja badges you can share to LinkedIn or Instagram.',
     tag: "Your goal is a quest. Don't play it alone.",
     pics: [
-      { file: 'k7-screens.png', label: 'K7 screens', ratio: 2.2, rot: 3 },
-      { file: 'k7-map.png', label: 'K7 map', ratio: 1.84, rot: -3 },
-      { file: 'k7-feed.png', label: 'K7 feed', ratio: 1.86, rot: 2 },
+      { file: 'k7-screens.jpg', label: 'K7 screens', ratio: 2.2, rot: 3 },
+      { file: 'k7-map.jpg', label: 'K7 map', ratio: 1.84, rot: -3 },
+      { file: 'k7-feed.jpg', label: 'K7 feed', ratio: 1.86, rot: 2 },
     ],
   },
 }

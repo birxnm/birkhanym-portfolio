@@ -1,22 +1,26 @@
-import { Route, Routes } from 'react-router-dom'
-import Layout from './components/Layout.jsx'
-import Contact from './pages/Contact.jsx'
-import Home from './pages/Home.jsx'
-import More from './pages/More.jsx'
-import ProjectPage from './pages/ProjectPage.jsx'
-import Projects from './pages/Projects.jsx'
+import Nav from './components/Nav.jsx'
+import { folderSlugs } from './data/site.js'
+import Contact from './sections/Contact.jsx'
+import Hero from './sections/Hero.jsx'
+import MoreBuilds from './sections/MoreBuilds.jsx'
+import ProjectSection from './sections/ProjectSection.jsx'
+import ProjectsIntro from './sections/ProjectsIntro.jsx'
 
+// One long scrolling page, in the same order as the Figma slides.
 export default function App() {
   return (
-    <Routes>
-      <Route element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="projects/:slug" element={<ProjectPage />} />
-        <Route path="more" element={<More />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="*" element={<Projects />} />
-      </Route>
-    </Routes>
+    <>
+      <Nav />
+      <main>
+        <Hero />
+        <ProjectsIntro />
+        {folderSlugs.map((slug, i) => (
+          <ProjectSection key={slug} slug={slug} tinted={i % 2 === 0} />
+        ))}
+        <ProjectSection slug="k7" tinted />
+        <MoreBuilds />
+        <Contact />
+      </main>
+    </>
   )
 }
